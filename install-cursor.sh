@@ -121,7 +121,7 @@ do_install() {
 
     # Build download URL based on format
     local APPIMAGE_NAME="cursor-${VERSION}.${BUILD_ID}-linux-${ARCH}.AppImage"
-    local DOWNLOAD_URL="https://api2.cursor.sh/updates/download/${CHANNEL}/linux-${ARCH}/${FORMAT,,}/cursor/${VERSION}"
+    local DOWNLOAD_URL="https://api2.cursor.sh/updates/download/${CHANNEL}/linux-${ARCH}/cursor/${VERSION}"
 
     echo -e "${YELLOW}📥 Downloading Cursor ${VERSION} (${ARCH})...${NC}"
     echo -e "${DIM}   URL: ${DOWNLOAD_URL}${NC}"
